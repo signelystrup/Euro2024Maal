@@ -2,6 +2,9 @@ import java.io.FileNotFoundException;
 
 public class MatchResultFileReader {
 
+    //opret filobjekt
+    //læse fil
+    //tilføj målscorere til liste (readFile())
 //TO DO
 
     public MatchResultFileReader(String fileName) throws
