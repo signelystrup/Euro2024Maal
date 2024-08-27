@@ -5,7 +5,6 @@ public class MatchResult {
 
     public MatchResult(String teams, List<String> goalScorers){
 
-
     }
 
     public List<String> getGoalScorers(){
