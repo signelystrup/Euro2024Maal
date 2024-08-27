@@ -1,3 +1,5 @@
+import java.util.List;
+
 public class MatchResult {
 
     private String teams;
@@ -9,6 +11,6 @@ public class MatchResult {
 
     public List<String> getGoalScorers(){
 
-        
+        return goalScorers;
     }
 }
