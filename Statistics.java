@@ -1,4 +1,5 @@
 import java.io.FileNotFoundException;
+import java.util.HashSet;
 import java.util.List;
 import java.util.Map;
 import java.util.Set;
@@ -12,11 +13,14 @@ public class Statistics {
     }
 
     public Set<String> getGoalScorers() {
-        //TO DO
+        //does this work ? idk
+    Set<String> goalScorers = new HashSet<>(); //makes a empty hashmap to fill with goalScorers
+    for (MatchResult matchResult : matchResults) { //for each matchResult in matchResults
+        goalScorers.addAll(matchResult.getGoalScorers()); //add all goalScorers from matchResult to goalScorers
+        return goalScorers;
     }
 
     public Map<String, Integer> getGoalScorersWithTotals() {
-
         //TO DO
     }
 
